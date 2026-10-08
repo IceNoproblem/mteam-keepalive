@@ -1,0 +1,13 @@
+# ---- 凭据与本机数据（绝不提交）----
+config.json
+.profile/
+profile/
+runtime/
+node_modules/
+logs/
+shots/
+.payload.json
+.payload.json.code
+
+# ---- macOS ----
+.DS_Store

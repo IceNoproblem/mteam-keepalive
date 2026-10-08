@@ -1,0 +1,12 @@
+{
+  "name": "mteam-keepalive",
+  "version": "1.0.0",
+  "private": true,
+  "description": "浏览器自动化 keepalive 任务驱动（仅 puppeteer-core，使用本机已装的 Edge/Chrome）",
+  "scripts": {
+    "run": "./run_task.sh"
+  },
+  "dependencies": {
+    "puppeteer-core": "^23.0.0"
+  }
+}

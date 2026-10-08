@@ -1,0 +1,44 @@
+{
+  "_comment": "mteam-keepalive 配置模板。复制为 config.json 后填写。mail_auth_code 是邮箱的IMAP/SMTP 授权码（16位），不是邮箱登录密码。本文件是合法 JSON，可直接被解析。",
+
+  "site_url": "https://kp.m-team.cc/index",
+  "site_user": "your_mteam_username",
+  "site_pass": "your_mteam_password",
+
+  "mail_user": "your_email@example.com",
+  "mail_auth_code": "your_16_char_auth_code",
+  "report_to": "your_email@example.com",
+
+  "imap_host": "imap.qq.com",
+  "imap_port": 993,
+  "imap_folder": "INBOX",
+  "smtp_host": "smtp.qq.com",
+  "smtp_port": 465,
+
+  "sender_keywords": ["m-team", "mteam", "mTorrent"],
+
+  "proxy": "",
+
+  "min_pages": 6,
+  "max_pages": 10,
+  "min_seconds": 60,
+  "max_seconds": 180,
+  "max_retry": 3,
+  "headless": true,
+  "run_at": "05:10",
+
+  "_advanced": {
+    "_note": "以下为高级项，换站点时才需要改。login_path 为登录页路径特征；pages 为随机漫游页面清单；site_base 为相对路径的站点根地址。",
+    "login_path": "/login",
+    "site_base": "",
+    "pages": [
+      { "u": "/index", "label": "首页" },
+      { "u": "/torrents", "label": "种子列表" },
+      { "u": "/forums", "label": "论坛" },
+      { "u": "/upload", "label": "发布页" },
+      { "u": "/top", "label": "热门" },
+      { "u": "/new", "label": "最新" },
+      { "u": "/messages", "label": "私信" }
+    ]
+  }
+}
