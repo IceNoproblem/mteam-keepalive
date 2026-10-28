@@ -2,6 +2,7 @@
 
 > 用无头浏览器每天自动登录一次 PT 站，防止账号因「长期未登录」被清理。
 
+[![bilibili](https://img.shields.io/badge/Bilibili-主页-00A1D6?logo=bilibili&logoColor=white)](https://space.bilibili.com/2250922)
 [![macOS](https://img.shields.io/badge/macOS-Apple%20Script-informational?style=flat-square)](https://www.apple.com/macos/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=flat-square)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
